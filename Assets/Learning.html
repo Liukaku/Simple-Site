@@ -1,0 +1,25 @@
+<html>
+<body>
+
+<h2>JavaScript Booleans</h2>
+
+<p>Booleans can have two values: true or false:</p>
+
+<p id="demo"></p>
+
+<script>
+var person = {
+    name: "Matt",
+    age: 25,
+    eyeColour: "pink",
+    hand: "Right",
+    fullName : function(){
+        return this.eyeColour + " " + this.hand;
+    }
+};
+
+document.getElementById("demo").innerHTML = person.fullName();
+</script>
+
+</body>
+</html>
